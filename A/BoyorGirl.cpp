@@ -4,10 +4,10 @@
 using namespace std;
 
 int main(){
-    char s[100];
+    char s[100];//maximum 100 characters;
     cin >> s;
     int count =1;
-    int len =strlen(s);
+    int len =strlen(s);//strlen functions returns the length of a string;
     sort(s,s+len);
     for(int i =0;i<len-1;i++){
         if(s[i]!=s[i+1]){
