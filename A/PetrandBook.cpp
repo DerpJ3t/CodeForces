@@ -21,3 +21,4 @@ int main(){
         }
     }
 }
+// theres a better version to this solution
