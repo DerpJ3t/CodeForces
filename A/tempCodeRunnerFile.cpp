@@ -1,1 +1,1 @@
-if(n[0]!='1') cout << "NO"; return 0;
+ cout << x << y;
